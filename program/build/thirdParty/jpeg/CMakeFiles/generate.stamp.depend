@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/CMVS-PMVS-master/program/thirdParty/jpeg/CMakeLists.txt
+D:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFile.cmake
+D:/CMVS-PMVS-master/program/thirdParty/jpeg/jconfig.h.cmake

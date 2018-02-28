@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{6D1B4514-50F2-391C-9941-D6F16599881D}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>nlopt</ProjectName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">nlopt.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">nlopt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">nlopt.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">nlopt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">nlopt.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">nlopt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">nlopt.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">nlopt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\stogo;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\util;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\direct;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cdirect;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\praxis;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\luksan;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\crs;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mlsl;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mma;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cobyla;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\newuoa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\neldermead;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\auglag;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\bobyqa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\isres;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\slsqp;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\esch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\stogo;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\util;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\direct;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cdirect;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\praxis;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\luksan;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\crs;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mlsl;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mma;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cobyla;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\newuoa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\neldermead;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\auglag;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\bobyqa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\isres;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\slsqp;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\esch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\stogo;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\util;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\direct;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cdirect;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\praxis;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\luksan;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\crs;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mlsl;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mma;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cobyla;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\newuoa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\neldermead;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\auglag;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\bobyqa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\isres;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\slsqp;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\esch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\stogo;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\util;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\direct;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cdirect;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\praxis;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\luksan;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\crs;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mlsl;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mma;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cobyla;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\newuoa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\neldermead;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\auglag;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\bobyqa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\isres;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\slsqp;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\esch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\stogo;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\util;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\direct;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cdirect;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\praxis;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\luksan;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\crs;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mlsl;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mma;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cobyla;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\newuoa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\neldermead;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\auglag;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\bobyqa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\isres;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\slsqp;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\esch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\stogo;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\util;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\direct;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cdirect;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\praxis;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\luksan;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\crs;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mlsl;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mma;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cobyla;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\newuoa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\neldermead;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\auglag;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\bobyqa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\isres;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\slsqp;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\esch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\stogo;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\util;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\direct;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cdirect;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\praxis;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\luksan;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\crs;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mlsl;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mma;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cobyla;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\newuoa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\neldermead;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\auglag;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\bobyqa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\isres;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\slsqp;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\esch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\stogo;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\util;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\direct;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cdirect;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\praxis;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\luksan;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\crs;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mlsl;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mma;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cobyla;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\newuoa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\neldermead;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\auglag;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\bobyqa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\isres;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\slsqp;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\esch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\stogo;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\util;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\direct;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cdirect;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\praxis;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\luksan;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\crs;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mlsl;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mma;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cobyla;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\newuoa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\neldermead;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\auglag;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\bobyqa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\isres;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\slsqp;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\esch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\stogo;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\util;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\direct;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cdirect;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\praxis;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\luksan;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\crs;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mlsl;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mma;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cobyla;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\newuoa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\neldermead;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\auglag;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\bobyqa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\isres;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\slsqp;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\esch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\stogo;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\util;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\direct;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cdirect;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\praxis;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\luksan;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\crs;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mlsl;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mma;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cobyla;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\newuoa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\neldermead;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\auglag;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\bobyqa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\isres;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\slsqp;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\esch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\stogo;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\util;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\direct;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cdirect;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\praxis;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\luksan;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\crs;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mlsl;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\mma;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\cobyla;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\newuoa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\neldermead;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\auglag;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\bobyqa;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\isres;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\slsqp;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\esch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\thirdParty\nlopt-2.4.2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/CMVS-PMVS-master/program/thirdParty/nlopt-2.4.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/CMVS-PMVS-master/program -BD:/CMVS-PMVS-master/program/build --check-stamp-file D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/CMVS-PMVS-master/program/thirdParty/nlopt-2.4.2/CMakeLists.txt;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\CMakeLists.txt;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\config.cmake.h.in;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/CMVS-PMVS-master/program/thirdParty/nlopt-2.4.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/CMVS-PMVS-master/program -BD:/CMVS-PMVS-master/program/build --check-stamp-file D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/CMVS-PMVS-master/program/thirdParty/nlopt-2.4.2/CMakeLists.txt;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\CMakeLists.txt;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\config.cmake.h.in;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/CMVS-PMVS-master/program/thirdParty/nlopt-2.4.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/CMVS-PMVS-master/program -BD:/CMVS-PMVS-master/program/build --check-stamp-file D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/CMVS-PMVS-master/program/thirdParty/nlopt-2.4.2/CMakeLists.txt;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\CMakeLists.txt;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\config.cmake.h.in;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/CMVS-PMVS-master/program/thirdParty/nlopt-2.4.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/CMVS-PMVS-master/program -BD:/CMVS-PMVS-master/program/build --check-stamp-file D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/CMVS-PMVS-master/program/thirdParty/nlopt-2.4.2/CMakeLists.txt;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\CMakeLists.txt;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFiles.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckTypeSize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\config.cmake.h.in;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\CMVS-PMVS-master\program\build\thirdParty\nlopt-2.4.2\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\direct\direct-internal.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\direct\direct.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\cdirect\cdirect.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\praxis\praxis.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\luksan\luksan.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\crs\crs.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\mlsl\mlsl.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\mma\mma.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\cobyla\cobyla.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\newuoa\newuoa.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\neldermead\neldermead.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\auglag\auglag.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\bobyqa\bobyqa.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\isres\isres.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\slsqp\slsqp.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\esch\esch.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\api\nlopt-internal.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\api\nlopt.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\api\f77funcs.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\api\f77funcs_.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\api\nlopt.hpp" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\api\nlopt-in.hpp" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\util\soboldata.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\util\nlopt-util.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\util\redblack.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\stogo\global.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\stogo\linalg.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\stogo\local.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\stogo\stogo_config.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\stogo\stogo.h" />
+    <ClInclude Include="..\..\..\thirdParty\nlopt-2.4.2\stogo\tools.h" />
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\direct\DIRect.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\direct\direct_wrap.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\direct\DIRserial.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\direct\DIRsubrout.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\cdirect\cdirect.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\cdirect\hybrid.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\praxis\praxis.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\luksan\plis.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\luksan\plip.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\luksan\pnet.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\luksan\mssubs.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\luksan\pssubs.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\crs\crs.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\mlsl\mlsl.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\mma\mma.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\mma\ccsa_quadratic.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\cobyla\cobyla.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\newuoa\newuoa.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\neldermead\nldrmd.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\neldermead\sbplx.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\auglag\auglag.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\bobyqa\bobyqa.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\isres\isres.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\slsqp\slsqp.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\esch\esch.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\api\general.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\api\options.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\api\optimize.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\api\deprecated.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\api\f77api.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\util\mt19937ar.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\util\sobolseq.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\util\timer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\util\stop.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\util\redblack.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\util\qsort_r.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\util\rescale.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\stogo\global.cc" />
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\stogo\linalg.cc" />
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\stogo\local.cc" />
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\stogo\stogo.cc" />
+    <ClCompile Include="..\..\..\thirdParty\nlopt-2.4.2\stogo\tools.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/CMVS-PMVS-master/program/build/ZERO_CHECK.vcxproj">
+      <Project>F429F784-A21E-31A5-A0B2-23CE4B0D6CCF</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

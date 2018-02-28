@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{2D400B42-4C1F-3725-A681-BD7DE0DD8C27}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>pmvs2</ProjectName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\CMVS-PMVS-master\program\build\main\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pmvs2.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pmvs2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\CMVS-PMVS-master\program\build\main\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pmvs2.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pmvs2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\CMVS-PMVS-master\program\build\main\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">pmvs2.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">pmvs2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\CMVS-PMVS-master\program\build\main\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">pmvs2.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">pmvs2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\base\pmvs\Debug\pmvs_lib.lib;..\base\image\Debug\image_lib.lib;..\base\numeric\Debug\numeric_lib.lib;..\thirdParty\jpeg\Debug\jpeg.lib;..\thirdParty\nlopt-2.4.2\Debug\nlopt.lib;..\thirdParty\tinycthread\Debug\tinycthread.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/CMVS-PMVS-master/program/build/main/Debug/pmvs2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CMVS-PMVS-master/program/build/main/Debug/pmvs2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\base\pmvs\Release\pmvs_lib.lib;..\base\image\Release\image_lib.lib;..\base\numeric\Release\numeric_lib.lib;..\thirdParty\jpeg\Release\jpeg.lib;..\thirdParty\nlopt-2.4.2\Release\nlopt.lib;..\thirdParty\tinycthread\Release\tinycthread.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/CMVS-PMVS-master/program/build/main/Release/pmvs2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CMVS-PMVS-master/program/build/main/Release/pmvs2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\base\pmvs\MinSizeRel\pmvs_lib.lib;..\base\image\MinSizeRel\image_lib.lib;..\base\numeric\MinSizeRel\numeric_lib.lib;..\thirdParty\jpeg\MinSizeRel\jpeg.lib;..\thirdParty\nlopt-2.4.2\MinSizeRel\nlopt.lib;..\thirdParty\tinycthread\MinSizeRel\tinycthread.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/CMVS-PMVS-master/program/build/main/MinSizeRel/pmvs2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CMVS-PMVS-master/program/build/main/MinSizeRel/pmvs2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CMVS-PMVS-master\program\program\base\image;D:\CMVS-PMVS-master\program\program\base\numeric;D:\CMVS-PMVS-master\program\program\base\pmvs;D:\CMVS-PMVS-master\program\thirdParty;D:\CMVS-PMVS-master\program\thirdParty\graclus1.2\metisLib;D:\CMVS-PMVS-master\program\thirdParty\nlopt-2.4.2\api;D:\CMVS-PMVS-master\program\thirdParty\cimg;D:\CMVS-PMVS-master\program\thirdParty\tinycthread;D:\CMVS-PMVS-master\program\thirdParty\Eigen;D:\CMVS-PMVS-master\program\thirdParty\miniBoost;D:\CMVS-PMVS-master\program\thirdParty\jpeg;D:\CMVS-PMVS-master\program\build\thirdParty\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\base\pmvs\RelWithDebInfo\pmvs_lib.lib;..\base\image\RelWithDebInfo\image_lib.lib;..\base\numeric\RelWithDebInfo\numeric_lib.lib;..\thirdParty\jpeg\RelWithDebInfo\jpeg.lib;..\thirdParty\nlopt-2.4.2\RelWithDebInfo\nlopt.lib;..\thirdParty\tinycthread\RelWithDebInfo\tinycthread.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/CMVS-PMVS-master/program/build/main/RelWithDebInfo/pmvs2.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/CMVS-PMVS-master/program/build/main/RelWithDebInfo/pmvs2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\main\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/CMVS-PMVS-master/program/main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/CMVS-PMVS-master/program -BD:/CMVS-PMVS-master/program/build --check-stamp-file D:\CMVS-PMVS-master\program\build\main\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/CMVS-PMVS-master/program/main/CMakeLists.txt;D:\CMVS-PMVS-master\program\main\CMakeLists.txt;D:\CMVS-PMVS-master\program\main\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\CMVS-PMVS-master\program\build\main\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/CMVS-PMVS-master/program/main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/CMVS-PMVS-master/program -BD:/CMVS-PMVS-master/program/build --check-stamp-file D:\CMVS-PMVS-master\program\build\main\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/CMVS-PMVS-master/program/main/CMakeLists.txt;D:\CMVS-PMVS-master\program\main\CMakeLists.txt;D:\CMVS-PMVS-master\program\main\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\CMVS-PMVS-master\program\build\main\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/CMVS-PMVS-master/program/main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/CMVS-PMVS-master/program -BD:/CMVS-PMVS-master/program/build --check-stamp-file D:\CMVS-PMVS-master\program\build\main\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/CMVS-PMVS-master/program/main/CMakeLists.txt;D:\CMVS-PMVS-master\program\main\CMakeLists.txt;D:\CMVS-PMVS-master\program\main\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\CMVS-PMVS-master\program\build\main\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/CMVS-PMVS-master/program/main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/CMVS-PMVS-master/program -BD:/CMVS-PMVS-master/program/build --check-stamp-file D:\CMVS-PMVS-master\program\build\main\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/CMVS-PMVS-master/program/main/CMakeLists.txt;D:\CMVS-PMVS-master\program\main\CMakeLists.txt;D:\CMVS-PMVS-master\program\main\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\CMVS-PMVS-master\program\build\main\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\main\pmvs2.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/CMVS-PMVS-master/program/build/ZERO_CHECK.vcxproj">
+      <Project>F429F784-A21E-31A5-A0B2-23CE4B0D6CCF</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/CMVS-PMVS-master/program/build/base/image/image_lib.vcxproj">
+      <Project>94239B95-56AA-33F3-87D6-6314075DDCC7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/CMVS-PMVS-master/program/build/thirdParty/jpeg/jpeg.vcxproj">
+      <Project>8C900B1B-7F4F-3331-BC93-76EE32FD387F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/CMVS-PMVS-master/program/build/thirdParty/nlopt-2.4.2/nlopt.vcxproj">
+      <Project>6D1B4514-50F2-391C-9941-D6F16599881D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/CMVS-PMVS-master/program/build/base/numeric/numeric_lib.vcxproj">
+      <Project>96C6AFA5-6E0B-3AF8-BB1B-BD1256EC1157</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/CMVS-PMVS-master/program/build/base/pmvs/pmvs_lib.vcxproj">
+      <Project>4D2211E1-1820-3668-8801-20ED098DE294</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/CMVS-PMVS-master/program/build/thirdParty/tinycthread/tinycthread.vcxproj">
+      <Project>6CE65F5F-9526-3A46-9F0C-45FEFEAD92A0</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

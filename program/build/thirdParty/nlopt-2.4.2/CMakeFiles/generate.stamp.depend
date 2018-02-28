@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+D:/CMVS-PMVS-master/program/thirdParty/nlopt-2.4.2/CMakeLists.txt
+D:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFiles.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckFunctionExists.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckTypeSize.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFile.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFileCXX.cmake
+D:/CMVS-PMVS-master/program/thirdParty/nlopt-2.4.2/config.cmake.h.in

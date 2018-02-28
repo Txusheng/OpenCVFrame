@@ -1,0 +1,67 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_DepthSynthesis.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_DepthSynthesis.cpp, GeneratedFiles\Release\moc_DepthSynthesis.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_FileTransfer.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_FileTransfer.cpp, GeneratedFiles\Release\moc_FileTransfer.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_opencvframe.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_opencvframe.cpp, GeneratedFiles\Release\moc_opencvframe.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_SLIC.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_SLIC.cpp, GeneratedFiles\Release\moc_SLIC.cpp.
+  DepthSynthesis.cpp
+D:\opencv\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencvframe\opencvframe\opencvframe\DepthSynthesis.h(253): warning C4091: “typedef ”: 没有声明变量时忽略“DepthPoint”的左侧
+d:\opencvframe\opencvframe\opencvframe\DepthSynthesis.h(262): warning C4091: “typedef ”: 没有声明变量时忽略“Line”的左侧
+d:\opencvframe\opencvframe\opencvframe\SLIC.h(42): warning C4091: “typedef ”: 没有声明变量时忽略“xylab”的左侧
+  FileTransfer.cpp
+D:\opencv\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencvframe\opencvframe\opencvframe\SLIC.h(42): warning C4091: “typedef ”: 没有声明变量时忽略“xylab”的左侧
+d:\opencvframe\opencvframe\opencvframe\DepthSynthesis.h(253): warning C4091: “typedef ”: 没有声明变量时忽略“DepthPoint”的左侧
+d:\opencvframe\opencvframe\opencvframe\DepthSynthesis.h(262): warning C4091: “typedef ”: 没有声明变量时忽略“Line”的左侧
+  moc_DepthSynthesis.cpp
+D:\opencv\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencvframe\opencvframe\opencvframe\generatedfiles\release\../../DepthSynthesis.h(253): warning C4091: “typedef ”: 没有声明变量时忽略“DepthPoint”的左侧
+d:\opencvframe\opencvframe\opencvframe\generatedfiles\release\../../DepthSynthesis.h(262): warning C4091: “typedef ”: 没有声明变量时忽略“Line”的左侧
+  moc_FileTransfer.cpp
+D:\opencv\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_SLIC.cpp
+D:\opencv\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencvframe\opencvframe\opencvframe\generatedfiles\release\../../SLIC.h(42): warning C4091: “typedef ”: 没有声明变量时忽略“xylab”的左侧
+  moc_opencvframe.cpp
+D:\opencv\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencvframe\opencvframe\opencvframe\SLIC.h(42): warning C4091: “typedef ”: 没有声明变量时忽略“xylab”的左侧
+d:\opencvframe\opencvframe\opencvframe\DepthSynthesis.h(253): warning C4091: “typedef ”: 没有声明变量时忽略“DepthPoint”的左侧
+d:\opencvframe\opencvframe\opencvframe\DepthSynthesis.h(262): warning C4091: “typedef ”: 没有声明变量时忽略“Line”的左侧
+  SLIC.cpp
+D:\opencv\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencvframe\opencvframe\opencvframe\SLIC.h(42): warning C4091: “typedef ”: 没有声明变量时忽略“xylab”的左侧
+d:\opencvframe\opencvframe\opencvframe\DepthSynthesis.h(253): warning C4091: “typedef ”: 没有声明变量时忽略“DepthPoint”的左侧
+d:\opencvframe\opencvframe\opencvframe\DepthSynthesis.h(262): warning C4091: “typedef ”: 没有声明变量时忽略“Line”的左侧
+  main.cpp
+D:\opencv\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencvframe\opencvframe\opencvframe\SLIC.h(42): warning C4091: “typedef ”: 没有声明变量时忽略“xylab”的左侧
+d:\opencvframe\opencvframe\opencvframe\DepthSynthesis.h(253): warning C4091: “typedef ”: 没有声明变量时忽略“DepthPoint”的左侧
+d:\opencvframe\opencvframe\opencvframe\DepthSynthesis.h(262): warning C4091: “typedef ”: 没有声明变量时忽略“Line”的左侧
+  opencvframe.cpp
+D:\opencv\build\install\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\opencv\build\install\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencvframe\opencvframe\opencvframe\SLIC.h(42): warning C4091: “typedef ”: 没有声明变量时忽略“xylab”的左侧
+d:\opencvframe\opencvframe\opencvframe\DepthSynthesis.h(253): warning C4091: “typedef ”: 没有声明变量时忽略“DepthPoint”的左侧
+d:\opencvframe\opencvframe\opencvframe\DepthSynthesis.h(262): warning C4091: “typedef ”: 没有声明变量时忽略“Line”的左侧
+  正在生成代码...
+d:\opencvframe\opencvframe\opencvframe\opencvframe.cpp(809): warning C4715: “OpenCVFrame::AquireCurrentIndex”: 不是所有的控件路径都返回值
+d:\opencvframe\opencvframe\opencvframe\opencvframe.cpp(794): warning C4715: “OpenCVFrame::AquireCurImages”: 不是所有的控件路径都返回值
+d:\opencvframe\opencvframe\opencvframe\filetransfer.cpp(261): warning C4715: “sfm::Reconstruction”: 不是所有的控件路径都返回值
+  qrc_opencvframe.cpp
+  OpenCVFrame.vcxproj -> D:\OpenCVFrame\OpenCVFrame\x64\Release\OpenCVFrame.exe
